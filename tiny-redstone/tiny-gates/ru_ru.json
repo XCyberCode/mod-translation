@@ -38,5 +38,5 @@
   "block.tinygates.edge_detector_block" : "Датчик границы",
   "message.block.tinygates.edge_detector_block": "Выводит импульс на начале (восходящая граница) или окончании (нисходящая граница) сигнала, поданного сзади.\nИспользуйте ПКМ для смена типа границы (восходящая или нисходящая).",
   "tinygates.close": "Закрыть",
-  "tinygates.gui.clock.msg": "Длина периода Часов (10 тиков/сек)"
+  "tinygates.gui.clock.msg": "Интервал импульса"
 }
