@@ -1,0 +1,5 @@
+{
+	"merchantmarkers.general.optifine_workaround_warning": "Optifine ломает Merchant Markers при использовании шейдеров без быстрой отрисовки (fast render). Мод Merchant Markers включит данный параметр.",
+	"merchantmarkers.key.showMarkers": "Отображать маркеры жителей",
+	"merchantmarkers.key.categories.merchantMarkers": "Merchant Markers"
+}
