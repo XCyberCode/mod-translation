@@ -19,4 +19,4 @@ for key, value in english_json.items():
     if(key in old_language_json):
         english_json[key] = old_language_json.get(key)
 with open(prog_args.destination, "w", encoding = "utf-8") as f:
-    json.dump(english_json, f, ensure_ascii = False, indent = 2)
+    json.dump(english_json, f, ensure_ascii = False, indent = 2, sort_keys = True)
