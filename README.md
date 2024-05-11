@@ -3,7 +3,8 @@
 ## Доступные переводы
 - [x] Macaw's Furniture
 - [x] Security Craft
-- [x] Tiny Redstone + Tiny Gates
+- [ ] Delightful
+- [ ] Tiny Redstone + Tiny Gates
 - [ ] Tetra
 - [ ] Dramatic Doors
 - [ ] Silent Gear
