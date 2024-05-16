@@ -4,9 +4,9 @@ arg_parser = argparse.ArgumentParser(
     prog = "Locale Combinator", 
     description = "Программа для обновления существующих JSON-файлов локализации модов Minecraft",
 )
-arg_parser.add_argument("eng_source", type = str, help = "Оригинальный файл (английский язык)", required = True)
-arg_parser.add_argument("locale_source", type = str, help = "Устаревший файл локализации", required = True)
-arg_parser.add_argument("destination", type = str, help = "Объединенный файл (вывод)", required = True)
+arg_parser.add_argument("eng_source", type = str, help = "Оригинальный файл (английский язык)")
+arg_parser.add_argument("locale_source", type = str, help = "Устаревший файл локализации")
+arg_parser.add_argument("destination", type = str, help = "Объединенный файл (вывод)")
 args = arg_parser.parse_args()
 
 with open(args.eng_source, encoding = "utf-8") as f:
