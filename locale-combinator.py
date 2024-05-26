@@ -1,5 +1,7 @@
 import json, argparse
 
+changes_amount = 0
+
 arg_parser = argparse.ArgumentParser(
     prog = "Locale Combinator", 
     description = "Программа для обновления существующих JSON-файлов локализации модов Minecraft",
@@ -18,5 +20,10 @@ with open(args.locale_source, encoding = "utf-8") as f:
 for key, value in english_json.items():
     if(key in old_language_json):
         english_json[key] = old_language_json.get(key)
+        changes_amount += 1
+
 with open(args.destination, "w", encoding = "utf-8") as f:
     json.dump(english_json, f, ensure_ascii = False, indent = 2, sort_keys = True)
+
+print(f"Всего: {len(english_json)}")
+print(f"Изменено: {changes_amount}")
